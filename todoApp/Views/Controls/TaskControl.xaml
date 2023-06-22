@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="todoApp.Views.Controls.TaskControl">
+    
+    <VerticalStackLayout Spacing="10" Margin="20, 20, 10, 0">
+        <Frame Padding="10,2,10,2">
+            <HorizontalStackLayout>
+                <Label Text="Title" VerticalOptions="Center" WidthRequest="60"></Label>
+                <Entry x:Name="entryTitle" VerticalOptions="Center">
+                    <Entry.Behaviors>
+                        <toolkit:TextValidationBehavior
+                            x:Name="titleValidator"
+                            Flags="ValidateOnAttaching,ValidateOnValueChanged"
+                            MinimumLength="1"
+                            />
+                    </Entry.Behaviors>
+                </Entry>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame Padding="10,20,10,2"
+               HeightRequest="200">
+            <HorizontalStackLayout>
+                <Label Text="Description" VerticalOptions="Start" WidthRequest="100"></Label>
+                <Entry x:Name="entryDescription" VerticalOptions="Fill" WidthRequest="250"></Entry>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame Padding="10,2,10,2">
+            <!--<HorizontalStackLayout>
+                <Label Text="Status" VerticalOptions="Center" WidthRequest="60"></Label>
+                <Entry x:Name="entryStatus" VerticalOptions="Center"></Entry>
+            </HorizontalStackLayout>-->
+            <Picker x:Name="entryStatus">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>In progress</x:String>
+                        <x:String>Done</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </Frame>
+        <Button x:Name="btnSave" Text="Save" Clicked="btnSave_Clicked"/>
+        <Button x:Name="btnCancel" Text="Cancel" Clicked="btnCancel_Clicked"/>
+    </VerticalStackLayout>
+
+</ContentView>
+

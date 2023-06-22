@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = todoApp
+build_property.ProjectDir = D:\Projekty\todoApp\todoApp\
+
+[D:/Projekty/todoApp/todoApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = todoApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Projekty/todoApp/todoApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = todoApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Projekty/todoApp/todoApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = todoApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Projekty/todoApp/todoApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = todoApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Projekty/todoApp/todoApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = todoApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Projekty/todoApp/todoApp/Views/AddTask.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = todoApp.Views.AddTask.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddTask.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddTask.xaml
+
+[D:/Projekty/todoApp/todoApp/Views/Controls/TaskControl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = todoApp.Views.Controls.TaskControl.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Controls\TaskControl.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Controls\TaskControl.xaml
+
+[D:/Projekty/todoApp/todoApp/Views/EditTask.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = todoApp.Views.EditTask.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditTask.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditTask.xaml
+
+[D:/Projekty/todoApp/todoApp/Views/TasksPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = todoApp.Views.TasksPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TasksPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TasksPage.xaml
